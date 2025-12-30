@@ -2,7 +2,8 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://example.cypress.io",
-    supportFile: "cypress/support/e2e.js"
+    baseUrl: "https://admin.onesaz.com",
+    supportFile: "cypress/support/e2e.js",
+    video: false
   }
 });
